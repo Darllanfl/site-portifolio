@@ -1,0 +1,31 @@
+const METODOS, ELEMENTOS, PROPIEDADES = { 'oque faz?' };
+
+
+var golsr;
+TEMPLATE STRING = var frase2 = `Romário fez ${golsr} gols`;
+Você deve passar expressões / variáveis dentro de ${}
+
+
+OPERADORES = {
+  /*  = == recebe
+      + == adiciona
+      ++/-- == incremento ex: conto ++/-- == conto +/-1 
+      ! == nega uma operação booleana. Ou seja, !true é igual a false
+      <= == menor q
+      >= == maior q
+      == compara conteúdo
+      === compara tipo e conteúdo
+      && == e
+      || == ou
+    }*/}
+
+
+   FUNÇAO = function imc(peso, altura) {
+      const imc = peso / (altura ** 2);
+      return imc;}
+      Variáveis e funções definidas dentro de um bloco {}, não são visíveis fora dele.
+
+SELECIONANDO ELEMENTO E EXECUTANDO FUNÇAO NA MESMA LINHA DE CODIGO
+      document.getElementById("menu1").addEventListener("click", function () {
+        console.log("clicou");
+      });
