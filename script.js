@@ -56,3 +56,16 @@ function initAnimacaoScroll() {
   }
 }
 initAnimacaoScroll();
+
+  function exibirDetalhes(imagem) {
+    const value = imagem.getAttribute("data-value");
+    const currency = imagem.getAttribute("data-currency");
+    const item_id = imagem.getAttribute("data-item_id");
+    const item_name = imagem.getAttribute("data-item_name");
+    
+    alert(`Detalhes do Produto:
+      Nome: ${item_name}
+      ID: ${item_id}
+      Valor: ${value} ${currency}
+    `);
+  }
